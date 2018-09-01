@@ -103,4 +103,5 @@ params = {
     'branch': 'master',
 }
 
-GitHubAnalysis(**params)
+if __name__ == "__main__":
+    GitHubAnalysis(**params)
